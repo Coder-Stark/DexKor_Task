@@ -4,6 +4,8 @@ DexKor_Task
  ┣ public
  ┃ ┗ vite.svg
  ┣ src
+ ┃ ┣ assets/
+ ┃      ┗ DexKorLogo.png
  ┃ ┣ App.tsx
  ┃ ┣ index.css
  ┃ ┗ main.tsx
