@@ -1,6 +1,7 @@
-import TopNav from "./components/TopNav";
-import SecondaryNav from "./components/SecondaryNav";
-import Sidebar from "./components/SideBar";
+import TopNav from "./components/layout/TopNav";
+import SecondaryNav from "./components/layout/SecondaryNav";
+import Sidebar from "./components/layout/SideBar";
+import MainContent from "./components/layout/MainContent";
 
 function App() {
   return (
@@ -12,13 +13,7 @@ function App() {
       <div className="flex-1 flex flex-col">
         <TopNav />
         <SecondaryNav />
-        
-        {/* Main Content */}
-        <div className="flex-1 overflow-auto bg-gray-50">
-          <div className="p-4">
-            <h1>Main Content</h1>
-          </div>
-        </div>
+        <MainContent />
       </div>
     </div>
   );

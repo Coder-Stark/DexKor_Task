@@ -1,5 +1,5 @@
 import { NotepadText, CalendarFold , Ticket, Download, Network, CircleUserRound , HandHeart , BarChart3, Settings} from 'lucide-react';
-import DexKorLogo from '../assets/DexKorLogo.png';
+import DexKorLogo from '../../assets/DexKorLogo.png';
 
 function Sidebar() {
   const navItems = [
