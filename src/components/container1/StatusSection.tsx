@@ -1,7 +1,7 @@
 // src/components/container1/StatusSection.tsx
 
 import Card from '../layout/Card2';
-import { Calendar, ChartNoAxesCombined, Target } from 'lucide-react';
+import { Calendar, ChartNoAxesCombined} from 'lucide-react';
 
 function StatusSection() {
   const completionPercentage = 0;
