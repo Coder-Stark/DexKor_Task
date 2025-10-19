@@ -1,4 +1,5 @@
 import { Search, Send, Trophy, Bell, GraduationCap, LayoutGrid, NotepadText } from 'lucide-react';
+import ProfileImage from '../../assets/profileImage.jpeg';
 
 function TopNav() {
   return (
@@ -8,7 +9,7 @@ function TopNav() {
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2">
             <NotepadText className="w-5 h-5 text-gray-600" />
-            <span className="text-sm font-medium text-gray-700">Projects</span>
+            <span className="text-2xl font-medium text-gray-700">Projects</span>
           </div>
           
           {/* Search Bar */}
@@ -42,7 +43,7 @@ function TopNav() {
           
           <button className="p-2 hover:bg-gray-100 rounded-md transition-colors relative">
             <Bell className="w-5 h-5 text-gray-600" />
-            <span className="absolute top-1 right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-semibold">
+            <span className="absolute top-1 right-1 bg-red-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center font-semibold">
               20
             </span>
           </button>
@@ -53,7 +54,7 @@ function TopNav() {
           {/* User Profile */}
           <div className="flex items-center gap-2 cursor-pointer hover:bg-gray-50 rounded-md px-2 py-1 transition-colors">
             <img 
-              src="https://ui-avatars.com/api/?name=Mark+Anderson&background=6366f1&color=fff" 
+              src={ProfileImage}
               alt="Mark Anderson" 
               className="w-8 h-8 rounded-full"
             />

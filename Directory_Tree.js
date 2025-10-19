@@ -8,8 +8,21 @@ src
  ┃ ┗ DexKorLogo.png
  ┣ components
  ┃ ┣ container1
+ ┃ ┃ ┣ BlockedCompletedSection.tsx
+ ┃ ┃ ┣ KeyEventsSection.tsx
+ ┃ ┃ ┣ PhaseGoalSection.tsx
+ ┃ ┃ ┣ StatusSection.tsx
+ ┃ ┃ ┣ TaskAtRisksSection.tsx
+ ┃ ┃ ┣ TaskSummarySection.tsx
+ ┃ ┃ ┗ UpdateOverdueSection.tsx
  ┃ ┣ container2
+ ┃ ┃ ┣ CustomerPortalCard.tsx
+ ┃ ┃ ┣ ProjectHoursCard.tsx
+ ┃ ┃ ┣ ProjectInfoCard.tsx
+ ┃ ┃ ┗ TeamMembersCard.tsx
  ┃ ┗ layout
+ ┃ ┃ ┣ Card.tsx
+ ┃ ┃ ┣ Card2.tsx
  ┃ ┃ ┣ MainContent.tsx
  ┃ ┃ ┣ SecondaryNav.tsx
  ┃ ┃ ┣ SideBar.tsx

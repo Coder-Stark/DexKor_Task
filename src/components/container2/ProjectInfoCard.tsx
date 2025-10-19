@@ -46,7 +46,7 @@ function ProjectInfoCard() {
           </div>
         </div>
 
-        <button className="text-sm text-blue-600 hover:text-blue-700 font-medium">
+        <button className="text-sm text-blue-600 hover:text-blue-700 font-medium cursor-pointer">
           See more field...
         </button>
       </div>

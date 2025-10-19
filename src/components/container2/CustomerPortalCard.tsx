@@ -11,7 +11,7 @@ function CustomerPortalCard() {
             <p className="text-sm text-gray-700 font-medium">Default portal</p>
             <p className="text-xs text-gray-600 mt-1">Set by Nishi Mishra on 13 Oct 25</p>
           </div>
-          <button className="text-sm text-blue-600 hover:text-blue-700 font-medium flex-shrink-0">
+          <button className="text-sm text-blue-600 hover:text-blue-700 font-medium flex-shrink-0 cursor-pointer">
             Change
           </button>
         </div>
